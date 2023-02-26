@@ -1,6 +1,7 @@
 # Terminal Pomodoro
 
 A simple pomodoro program for power terminal users.
+
 ![pomodoro](https://user-images.githubusercontent.com/49165465/221421585-60991b12-fe19-421a-945b-b3259e88e821.png)
 
 # Dependencies
@@ -14,3 +15,14 @@ A simple pomodoro program for power terminal users.
 # Optional Dependency
 
 - `lolcat` - (https://github.com/busyloop/lolcat) for beautiful rainbows (colored text)
+
+# Installation
+
+First make the script executable.
+`chmod +x pomo.sh`
+
+`./pomo.sh -h`
+
+And that is it ! , you can symlink, run script from anyplace, source it, make alias, etc.
+
+Also feel free to customize according to your liking.

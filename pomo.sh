@@ -5,22 +5,22 @@ HELP="
 -t,     time in minute
 -h,     help me! -> o_o"
 
-dir=$(pwd)/deps
+dir=$(dirname "$0")/deps
 OPTION="${2:-"w"}"
 TIME="${4:-45}"
 
 pomodoro () {
     if [ "$OPTION" = "b" ]; then
-        LOCAL_OPTION="taking a break "
+        LOCAL_OPTION="taking break"
     elif [ "$OPTION" = "w" ]; then 
         LOCAL_OPTION="working" 
     else
         LOCAL_OPTION="just chilling"
     fi
-    echo "you are $LOCAL_OPTION for $TIME minutes."|"$dir/lolcat"
+    echo "you are $LOCAL_OPTION for $TIME minute."|"$dir/lolcat"
     "$dir/timer" "${TIME}m"
-    echo "$OPTION session completed." | "$dir/lolcat"
-    spd-say -t male1 "$OPTION session completed."
+    echo "$LOCAL_OPTION session completed."|"$dir/lolcat"
+    spd-say -t male1 "$LOCAL_OPTION session completed."
 }
 
 while [[ $# -gt 0 ]]
