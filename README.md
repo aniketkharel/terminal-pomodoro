@@ -2,7 +2,7 @@
 
 A simple pomodoro program for power terminal users.
 
-![pomodoro](https://user-images.githubusercontent.com/49165465/221421585-60991b12-fe19-421a-945b-b3259e88e821.png)
+![pomodoro](https://user-images.githubusercontent.com/49165465/221424528-5ad922a7-9aa7-4e6b-98bc-eb2797f763c3.png)
 
 # Dependencies
 
